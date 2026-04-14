@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/Cirnouo/STranslate.Plugin.Tts.Vocu">
-    <img src="STranslate.Plugin.Tts.Vocu/icon.png" alt="Vocu TTS" width="128" height="128" />
+    <img src="docs/images/icon.svg" alt="Vocu TTS" width="128" height="128" />
   </a>
 
   <h1>Vocu TTS</h1>
@@ -18,11 +18,15 @@
   </p>
 
   <p>
-    <b>简体中文</b> | <a href="#english">English</a>
+    <b>简体中文</b> | <a href="docs/README_EN.md">English</a>
   </p>
 </div>
 
 ---
+
+<div align="center">
+  <img src="docs/images/overview.png" alt="插件总览" width="700" />
+</div>
 
 ## 功能特性
 
@@ -75,6 +79,41 @@
 
 </details>
 
+### 截图
+
+<details>
+<summary><b>界面截图</b>（点击展开）</summary>
+
+#### 站点切换
+
+<img src="docs/images/site_switcher.png" alt="站点切换" width="600" />
+
+#### 账户与 API
+
+<img src="docs/images/account_and_api.png" alt="账户与 API" width="600" />
+
+#### 语音角色配置
+
+<img src="docs/images/voice_config.png" alt="语音角色配置" width="600" />
+
+#### 生成参数
+
+<img src="docs/images/generation_parameters.png" alt="生成参数" width="600" />
+
+#### 情绪控制
+
+<img src="docs/images/emotion_control.png" alt="情绪控制" width="600" />
+
+#### 高级选项
+
+<img src="docs/images/advanced_options.png" alt="高级选项" width="600" />
+
+#### 其他与支持
+
+<img src="docs/images/others_and_support.png" alt="其他与支持" width="600" />
+
+</details>
+
 ## 构建
 
 ```powershell
@@ -98,10 +137,6 @@
 
 </details>
 
-<!-- ## 截图
-
-> TODO: 添加插件设置页面截图 -->
-
 ## 致谢
 
 - [STranslate](https://github.com/ZGGSONG/STranslate) — 即用即走的翻译和 OCR 工具
@@ -112,43 +147,3 @@
 
 [MIT](LICENSE)
 
----
-
-<a id="english"></a>
-
-<div align="center">
-  <h2>English</h2>
-</div>
-
-A [STranslate](https://github.com/ZGGSONG/STranslate) TTS plugin powered by [Vocu](https://vocu.ai) / [Wusound](https://wusound.cn) text-to-speech API.
-
-### Features
-
-- **Dual-site** — Switch between Vocu (international) and Wusound (China domestic) with independent configs
-- **Emotion control** — Angry, happy, neutral, sad, context-match, each adjustable 0-10
-- **Rich parameters** — Speech rate, presets, auto language detection, seed control
-- **Advanced modes** — Text emotion priority, vivid expression (V3.0), low-latency Flash mode
-- **Account info** — Real-time credit balance, avatar, API latency indicator
-- **Multilingual UI** — zh-CN, zh-TW, English, Japanese, Korean
-
-### Installation
-
-1. Download the latest `.spkg` from [Releases](https://github.com/Cirnouo/STranslate.Plugin.Tts.Vocu/releases)
-2. In STranslate: **Settings → Plugins → Install Plugin**
-3. Select the `.spkg` file and restart STranslate
-
-### Prerequisites
-
-Register at [vocu.ai](https://vocu.ai) (international) or [wusound.cn](https://wusound.cn) (China) and obtain an API Key.
-
-### Build
-
-```powershell
-.\build.ps1              # Debug build (default)
-.\build.ps1 -Clean       # Clean + Debug build
-.\build.ps1 -Configuration Release  # Release build
-```
-
-### License
-
-[MIT](LICENSE)
