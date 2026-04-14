@@ -86,31 +86,31 @@ Both sites share an identical API — the same endpoints, parameters, and respon
 
 #### Site Switcher
 
-<img src="images/site_switcher.png" alt="Site Switcher" width="600" />
+<img src="images/site_switcher.png" alt="Site Switcher" width="240" />
 
 #### Account & API
 
-<img src="images/account_and_api.png" alt="Account & API" width="600" />
+<img src="images/account_and_api.png" alt="Account & API" width="450" />
 
 #### Voice Configuration
 
-<img src="images/voice_config.png" alt="Voice Configuration" width="600" />
+<img src="images/voice_config.png" alt="Voice Configuration" width="450" />
 
 #### Generation Parameters
 
-<img src="images/generation_parameters.png" alt="Generation Parameters" width="600" />
+<img src="images/generation_parameters.png" alt="Generation Parameters" width="450" />
 
 #### Emotion Control
 
-<img src="images/emotion_control.png" alt="Emotion Control" width="600" />
+<img src="images/emotion_control.png" alt="Emotion Control" width="450" />
 
 #### Advanced Options
 
-<img src="images/advanced_options.png" alt="Advanced Options" width="600" />
+<img src="images/advanced_options.png" alt="Advanced Options" width="450" />
 
 #### Others & Support
 
-<img src="images/others_and_support.png" alt="Others & Support" width="600" />
+<img src="images/others_and_support.png" alt="Others & Support" width="450" />
 
 </details>
 
