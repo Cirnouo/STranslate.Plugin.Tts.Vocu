@@ -86,31 +86,31 @@
 
 #### 站点切换
 
-<img src="docs/images/site_switcher.png" alt="站点切换" width="600" />
+<img src="docs/images/site_switcher.png" alt="站点切换" width="240" />
 
 #### 账户与 API
 
-<img src="docs/images/account_and_api.png" alt="账户与 API" width="600" />
+<img src="docs/images/account_and_api.png" alt="账户与 API" width="450" />
 
 #### 语音角色配置
 
-<img src="docs/images/voice_config.png" alt="语音角色配置" width="600" />
+<img src="docs/images/voice_config.png" alt="语音角色配置" width="450" />
 
 #### 生成参数
 
-<img src="docs/images/generation_parameters.png" alt="生成参数" width="600" />
+<img src="docs/images/generation_parameters.png" alt="生成参数" width="450" />
 
 #### 情绪控制
 
-<img src="docs/images/emotion_control.png" alt="情绪控制" width="600" />
+<img src="docs/images/emotion_control.png" alt="情绪控制" width="450" />
 
 #### 高级选项
 
-<img src="docs/images/advanced_options.png" alt="高级选项" width="600" />
+<img src="docs/images/advanced_options.png" alt="高级选项" width="450" />
 
 #### 其他与支持
 
-<img src="docs/images/others_and_support.png" alt="其他与支持" width="600" />
+<img src="docs/images/others_and_support.png" alt="其他与支持" width="450" />
 
 </details>
 
