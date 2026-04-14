@@ -1,0 +1,66 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ═══ グループ見出し ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_AccountApi">アカウントとAPI</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Voice">音声</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Generation">生成パラメータ</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Advanced">詳細オプション</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Emotion">感情コントロール</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Misc">その他</sys:String>
+
+    <!-- ═══ アカウント ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_AccountInfo">アカウント情報</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Credits">残りクレジット:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Refresh">更新</sys:String>
+
+    <!-- ═══ API ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Url">API URL</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey">API Key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Placeholder">API Key を入力してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Empty">まず API Key を設定してください</sys:String>
+
+    <!-- ═══ 音声 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId">音声 ID</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Placeholder">音声 ID を入力（必須）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Empty">まず音声 ID を設定してください</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_PromptId">プロンプトスタイル</sys:String>
+
+    <!-- ═══ 生成パラメータ ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Preset">プリセット</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language">言語</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language_Description">合成するテキストの言語</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_SpeechRate">話速</sys:String>
+
+    <!-- ═══ 詳細オプション ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone">テキスト感情</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone_Description">音声クローンよりテキスト感情スタイルを優先</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid">生き生き表現</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid_Description">生き生き表現モード（V3.0 音声のみ）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash">低遅延</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash_Description">低遅延モードで応答を高速化</sys:String>
+
+    <!-- ═══ 感情コントロール ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoAngry">怒り</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoHappy">喜び</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoNeutral">平静</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoSad">悲しみ</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoContext">文脈一致</sys:String>
+
+    <!-- ═══ その他 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed">シード</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed_Description">-1 でランダム</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support">サポート</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support_Description">vocu.ai / wusound.cn 音声合成 API を使用</sys:String>
+
+    <!-- ═══ タブ見出し ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Tab_Wusound">悟声 Wusound</sys:String>
+
+    <!-- ═══ ランタイムメッセージ ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Text_Empty">テキスト内容は空にできません</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Audio_Empty">API が空の音声データを返しました</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Parse_Error">API 応答の解析に失敗しました</sys:String>
+
+</ResourceDictionary>

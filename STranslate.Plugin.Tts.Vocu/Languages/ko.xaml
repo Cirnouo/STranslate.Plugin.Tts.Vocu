@@ -1,0 +1,66 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ═══ 그룹 제목 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_AccountApi">계정 및 API</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Voice">음성</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Generation">생성 매개변수</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Advanced">고급 옵션</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Emotion">감정 제어</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Misc">기타</sys:String>
+
+    <!-- ═══ 계정 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_AccountInfo">계정 정보</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Credits">잔여 크레딧:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Refresh">새로고침</sys:String>
+
+    <!-- ═══ API ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Url">API URL</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey">API Key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Placeholder">API Key를 입력하세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Empty">먼저 API Key를 설정해주세요</sys:String>
+
+    <!-- ═══ 음성 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId">음성 ID</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Placeholder">음성 ID를 입력하세요 (필수)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Empty">먼저 음성 ID를 설정해주세요</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_PromptId">프롬프트 스타일</sys:String>
+
+    <!-- ═══ 생성 매개변수 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Preset">프리셋</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language">언어</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language_Description">합성할 텍스트의 언어</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_SpeechRate">말하기 속도</sys:String>
+
+    <!-- ═══ 고급 옵션 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone">텍스트 감정</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone_Description">음성 클론보다 텍스트 감정 스타일 우선</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid">생동감 표현</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid_Description">생동감 표현 모드 (V3.0 음성 전용)</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash">저지연</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash_Description">저지연 모드로 응답 속도 향상</sys:String>
+
+    <!-- ═══ 감정 제어 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoAngry">분노</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoHappy">기쁨</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoNeutral">평온</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoSad">슬픔</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoContext">문맥 일치</sys:String>
+
+    <!-- ═══ 기타 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed">시드</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed_Description">-1은 랜덤</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support">지원</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support_Description">vocu.ai / wusound.cn 음성 합성 API 기반</sys:String>
+
+    <!-- ═══ 탭 제목 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Tab_Wusound">Wusound</sys:String>
+
+    <!-- ═══ 런타임 메시지 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Text_Empty">텍스트 내용이 비어있을 수 없습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Audio_Empty">API가 빈 오디오 데이터를 반환했습니다</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Parse_Error">API 응답 파싱에 실패했습니다</sys:String>
+
+</ResourceDictionary>

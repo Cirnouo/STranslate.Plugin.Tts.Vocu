@@ -1,0 +1,66 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <!-- ═══ 群組標題 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_AccountApi">帳戶與介面</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Voice">語音</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Generation">生成參數</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Advanced">進階選項</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Emotion">情緒控制</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Group_Misc">其他</sys:String>
+
+    <!-- ═══ 帳戶 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_AccountInfo">帳戶資訊</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Credits">剩餘點數:</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Refresh">重新整理</sys:String>
+
+    <!-- ═══ 介面 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Url">介面地址</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey">API Key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Placeholder">請輸入 API Key</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_ApiKey_Empty">請先設定 API Key</sys:String>
+
+    <!-- ═══ 語音 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId">語音角色 ID</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Placeholder">請輸入語音角色 ID（必填）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_VoiceId_Empty">請先設定語音角色 ID</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_PromptId">角色風格</sys:String>
+
+    <!-- ═══ 生成參數 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Preset">參數預設</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language">語言</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Language_Description">待合成文字的語言</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_SpeechRate">語速</sys:String>
+
+    <!-- ═══ 進階選項 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone">文字情感</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_BreakClone_Description">優先使用文字情感風格而非音色複製</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid">生動表達</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Vivid_Description">生動表達模式（僅 V3.0 角色）</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash">低延遲</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Flash_Description">啟用低延遲模式以加快回應速度</sys:String>
+
+    <!-- ═══ 情緒控制 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoAngry">憤怒</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoHappy">開心</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoNeutral">平靜</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoSad">悲傷</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_EmoContext">跟隨文本</sys:String>
+
+    <!-- ═══ 其他 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed">種子</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Seed_Description">-1 為隨機</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support">支援</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Support_Description">基於 vocu.ai / wusound.cn 語音合成 API</sys:String>
+
+    <!-- ═══ 分頁標題 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Tab_Wusound">悟聲</sys:String>
+
+    <!-- ═══ 執行時訊息 ═══ -->
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Text_Empty">文字內容不能為空</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Audio_Empty">API 傳回的音訊資料為空</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Tts_Vocu_Parse_Error">解析 API 回應失敗</sys:String>
+
+</ResourceDictionary>

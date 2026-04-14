@@ -1,0 +1,29 @@
+<UserControl
+    x:Class="STranslate.Plugin.Tts.Vocu.View.SettingsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+    xmlns:local="clr-namespace:STranslate.Plugin.Tts.Vocu.View"
+    xmlns:vm="clr-namespace:STranslate.Plugin.Tts.Vocu.ViewModel"
+    d:DataContext="{d:DesignInstance Type=vm:SettingsViewModel}"
+    d:DesignHeight="900"
+    d:DesignWidth="600"
+    mc:Ignorable="d">
+
+    <StackPanel>
+        <!-- 站点选择 -->
+        <ComboBox
+            Margin="0,0,0,8"
+            MinWidth="160"
+            HorizontalAlignment="Left"
+            SelectedIndex="{Binding SelectedTabIndex}">
+            <ComboBoxItem Content="Vocu" />
+            <ComboBoxItem Content="{DynamicResource STranslate_Plugin_Tts_Vocu_Tab_Wusound}" />
+        </ComboBox>
+
+        <!-- 当前站点设置 -->
+        <local:SiteSettingsView DataContext="{Binding ActiveSiteViewModel}" />
+    </StackPanel>
+</UserControl>
