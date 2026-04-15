@@ -4,7 +4,7 @@
   "Description": "Vocu / 悟声语音合成插件，支持双站点、多语言、情绪控制和丰富的生成参数",
   "Author": "pwpy",
   "Version": "1.0.0",
-  "Website": "https://vocu.ai",
+  "Website": "https://github.com/Cirnouo/STranslate.Plugin.Tts.Vocu/",
   "ExecuteFileName": "STranslate.Plugin.Tts.Vocu.dll",
   "IconPath": "icon.png"
 }
